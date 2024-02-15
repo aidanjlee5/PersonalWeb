@@ -1,0 +1,16 @@
+html{
+  font-size:62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 300 11px/1,4 'Helvetica Neue', 'sans-serif';/*I have absolutely no idea what this does*/
+  color:#ce0000; /*I have absolutely no idea what this does*/
+  background: #56a0d3
+  ;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
