@@ -11,10 +11,15 @@
     margin: auto;
   
     svg {
+      -moz-transform: scale(-1, 1);
+      -webkit-transform: scale(-1, 1);
+      -o-transform: scale(-1, 1);
+      -ms-transform: scale(-1, 1);
+      transform: scale(-1, 1);
       width: 100%;
       height: auto;
       bottom: 0;
-      transform: rotateZ(30deg) !important;
+      transform: rotateZ(180deg) !important;
     }
   
     .solid-logo {
