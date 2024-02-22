@@ -1,3 +1,5 @@
+
+
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -9,6 +11,13 @@
     overflow: hidden;
   }
   
+  p {
+    font-size: 80px;
+    font-weight: 5000;
+    color: #fff;
+    text-align: left;
+  }
+
   .cubespinner { /*animation for cube spinner*/
     animation-name: spincube;
     animation-timing-function: ease-in-out;

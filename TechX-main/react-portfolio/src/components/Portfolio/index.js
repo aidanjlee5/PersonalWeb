@@ -71,7 +71,7 @@ const Portfolio = () => {
                 </h2>
                 <div>{renderPortfolio(portfolio)}</div>
             </div>
-            <Loader type="pacman" />
+            <Loader type="ball-triangle-path" />
         </>
     );
 }

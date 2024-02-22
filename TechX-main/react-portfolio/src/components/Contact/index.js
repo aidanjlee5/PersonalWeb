@@ -45,8 +45,7 @@ const Contact = () => {
           </h1>
           <p>
             I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            or large projects. However, if you have other request or questions, please feel free to contact me using the form below.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -87,9 +86,9 @@ const Contact = () => {
         <div className="info-map">
           Aidan Lee,
           <br />
-          Waxhaw,
+          Chapel Hill,
           <br />
-          North Carolina, 28173 <br />
+          North Carolina, 27514 <br />
           United States <br />
           <br />
           <span>aidjlee@ad.unc.edu</span>
@@ -103,7 +102,8 @@ const Contact = () => {
           </MapContainer>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-triangle-path" />
+      
     </>
   )
 }

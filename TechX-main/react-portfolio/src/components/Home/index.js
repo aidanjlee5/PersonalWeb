@@ -64,7 +64,7 @@ const Home = () => {
         <Logo />
       </div>
 
-      <Loader type="pacman" />
+      <Loader type="ball-triangle-path" />
     </>
   )
 }
